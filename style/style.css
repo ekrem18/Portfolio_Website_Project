@@ -26,3 +26,22 @@
 .footerText {
   margin: 0;
 }
+
+.mainSectionButtons .row {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px; 
+
+}
+
+.mainSectionButtons .row .col-md-6 {
+  margin-bottom: 30px; 
+
+}
+
+.btn-lg {
+  padding: 10px 20px; 
+  font-size: 18px; 
+}
