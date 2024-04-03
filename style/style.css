@@ -1,28 +1,28 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
-
-#logoImg{
-    width: 31px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.mainSection{
-    background: url(../assets/retro-2031321_1920.png) center;
-    height: calc(100vh);
-    margin-top: 0;
-    padding-top: 0;
+#logoImg {
+  width: 31px;
+}
+
+.mainSection {
+  background: url(../assets/pixelguy.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh);
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px; 
-    background-color: bisque;
-  }
-  
-  .footerText {
-    margin: 0;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: bisque;
+}
+
+.footerText {
+  margin: 0;
+}
