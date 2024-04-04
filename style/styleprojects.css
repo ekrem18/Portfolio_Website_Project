@@ -364,4 +364,14 @@ a, a:hover {
 			transparent 50%
 		);
 	}
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #logoImg {
+    width: 31px;
+  }
 }
