@@ -8,7 +8,7 @@ $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 
-/* This pen */
+
 body {
 	font-family: "Baloo 2", cursive;
 	font-size: 16px;
@@ -42,7 +42,7 @@ a, a:hover {
 .postcard {
   flex-wrap: wrap;
   display: flex;
-  
+  height: 300px;
   box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
   margin: 0 0 2rem 0;
@@ -215,7 +215,7 @@ a, a:hover {
       padding: 2rem 3.5rem;
     }
 		
-		.postcard__text:before {
+		/* .postcard__text:before {
       content: "";
       position: absolute;
       display: block;
@@ -223,7 +223,7 @@ a, a:hover {
       top: -20%;
       height: 130%;
       width: 55px;
-    }
+    } */
 	
   .postcard.dark {
 		.postcard__text:before {
