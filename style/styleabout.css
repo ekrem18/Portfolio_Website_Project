@@ -210,6 +210,18 @@ a, a:hover {
     }
   }
 }
+.aboutphoto {
+  display: flex;
+  justify-content: center; /* Yatay ortala */
+  align-items: center; /* Dikey ortala */
+  height: 400px; /* Yükseklik */
+}
+
+.aboutphoto img {
+  max-width: 100%; /* Resmin maksimum genişliği */
+  max-height: 100%; /* Resmin maksimum yüksekliği */
+  height: auto; /* Yükseklik otomatik ayarlama */
+}
 @media screen and (min-width: 1024px){
 		.postcard__text {
       padding: 2rem 3.5rem;
