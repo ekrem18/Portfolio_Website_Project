@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>About</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/styleprojects.css" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <title>About</title>
+  </head>
+  <section class="">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="./assets/Untitled-1.jpg" id="logoImg" />
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="photography.html">Photography</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About Me</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </nav>
+    <div class="container py-2 " >
+      
+      <div class="h1 text-center text-dark" id="pageHeaderTitle">
+        BLOGS
+      </div>
+
+      <article class="postcard light blue">
+        
+        <div class="postcard__text t-dark">
+          
+            <h1 class="postcard__title blue">Color Palette</h1>
+          
+          
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt"  id="postPreview">
+            You can find below the color palettes I looked at for inspiration to use in my projects. While our projects may have creative ideas, it is essential to choose the right colors to present them beautifully. With the right color selection, we can not only influence the customer's mood but also enhance the product's appeal. More importantly, harmony, contrast, and trend tracking are crucial for a better end-user experience.
+          </div>
+          <ul class="postcard__tagbox">
+            <a
+              href="https://color.adobe.com/tr/trends"
+              ><li class="tag__item">
+                <i class="fas fa-tag mr-2"></i> Link
+              </li></a
+            >
+          </ul>
+        </div>
+      </article>
+
+      <article class="postcard light blue">
+        
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue">Vlog Video</h1>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">
+            While we've been traveling as a family for a long time, we haven't been archiving our experiences. However, last year, we made a decision to start organizing our shots more efficiently—especially with our daughter, whenever possible :). In this context, you can see videos compiled from shots I took with my drone, 360-degree camera, and mirrorless camera on my YouTube channel. If you'd like to take a look, simply click on the link. Don't forget to hit the like button :)
+          </div>
+          <ul class="postcard__tagbox">
+            <a
+              href="https://www.youtube.com/channel/UC13mACMU2M1oQPGXftBNj4w"
+              ><li class="tag__item">
+                <i class="fas fa-tag mr-2"></i>Link
+              </a
+            >
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
 </html>
