@@ -53,3 +53,13 @@
   padding: 10px 20px; 
   font-size: 18px; 
 }
+
+.navo{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 165, 36, 0.692); 
+  backdrop-filter: blur(5px); 
+  z-index: 1000; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+}
