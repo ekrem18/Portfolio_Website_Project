@@ -59,7 +59,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 165, 36, 0.7); 
+  background-color: rgba(92, 184, 92, 0.712); 
   backdrop-filter: blur(5px); 
   z-index: 1000; 
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
