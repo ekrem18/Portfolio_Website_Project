@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Public Pixel', sans-serif;
   color: black;
+  cursor:url('../assets/cursor.png'),auto;
                                                 
 }
 .dark {
@@ -21,6 +22,7 @@ a, a:hover {
 	text-decoration: none;
 	transition: color 0.3s ease-in-out;
 }
+
 
 #pageHeaderTitle {
 	margin: 2rem 0;
@@ -124,6 +126,7 @@ a, a:hover {
 
       &:hover {
         background: #B0D9C6;
+        
       }
     }
   }
@@ -138,13 +141,18 @@ a, a:hover {
     background-image: linear-gradient(120deg, #e9b555, transparent 50%);
     opacity: 1;
     border-radius: 10px;
+    
   }
 
   &:hover .postcard__bar {
     width: 100px;
   }
 }
-
+.postcard__tagbox a {
+  display: inline-block; /* Bağlantı elemanlarını blok öğeler olarak ayarla */
+  width: 100%; /* Tam genişlikte olmalarını sağla */
+  height: 100%; /* Tam yükseklikte olmalarını sağla */
+}
 @media screen and (min-width: 769px) {
   .postcard {
     flex-wrap: inherit;
@@ -180,6 +188,7 @@ a, a:hover {
 
     &:hover .postcard__img {
       transform: scale(1.1);
+      /* cursor: url('../assets/cursor2.png'); */
     }
 
     &:nth-child(2n+1) {

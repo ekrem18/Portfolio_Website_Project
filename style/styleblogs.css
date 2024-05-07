@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Public Pixel', sans-serif;
     color: black;
-    /* background-color: #F2B05E; */
+    cursor:url('../assets/cursor.png'),auto;
                                                   
   }
   .dark {

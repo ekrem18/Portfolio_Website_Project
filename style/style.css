@@ -39,12 +39,21 @@
 .btn:hover {
   box-shadow: 0.4rem 0.4rem 0rem black;
   cursor: URL("../assets/cursor2.png"), auto;
-  transform: translate(-0.4rem, -0.4rem);
+  transform: translate(-0.2rem, -0.2rem);
+  
 }
 
-.a:hover {
+.anin:hover {
+  /* box-shadow: 0.4rem 0.4rem 0rem black; */
   cursor: URL("../assets/cursor2.png"), auto;
-}  
+  /* transform: translate(-0.2rem, -0.2rem); */
+  
+}
+
+.divinin:hover{
+  cursor: URL("../assets/cursor2.png"), auto;
+}
+
 .mainSectionButtons .row {
   display: flex;
   /* flex-direction: column; */
