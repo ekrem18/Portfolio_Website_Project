@@ -16,15 +16,10 @@ body {
 }
 
 
-
-
 .photography {
   margin-top: 0px;
 }
 
-.btnback{
-  margin-bottom: 0;
-}
 
 h2 {
   color: rgb(37, 28, 28);
@@ -40,13 +35,14 @@ h2 {
 .gallery-block .heading {
   margin-bottom: 50px;
   text-align: center;
+  /* cursor:url('../assets/cursor2.png'),auto;  */
 }
 
-.gallery-block .heading h2 {
+/* .gallery-block .heading a {
   font-weight: bold;
   font-size: 1.4rem;
   text-transform: uppercase;
-}
+} */
 
 .gallery-block.compact-gallery .item {
   overflow: hidden;
@@ -107,6 +103,7 @@ h2 {
 .item:hover .fake {
   display: none;
 }
+
 
 
 
