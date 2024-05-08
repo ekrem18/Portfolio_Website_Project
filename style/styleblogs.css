@@ -9,6 +9,14 @@
     cursor:url('../assets/cursor.png'),auto;
                                                   
   }
+
+  .anin:hover {
+    /* box-shadow: 0.4rem 0.4rem 0rem black; */
+    cursor: URL("../assets/cursor2.png"), auto;
+    /* transform: translate(-0.2rem, -0.2rem); */
+    
+  }
+
   .dark {
       background: #110f16;
   }
