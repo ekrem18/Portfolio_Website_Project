@@ -95,27 +95,24 @@ h2 {
   font-weight: 300;
 }
 
-.goster .hover {
-  opacity: 0; 
+
+.item .original {
+  display: none;
 }
 
-.goster:hover .hover {
-  opacity: 1; 
+.item:hover .original {
+  display: block;
 }
 
-.goster:hover .original {
-  opacity: 0; 
+.item:hover .fake {
+  display: none;
 }
 
-.goster{
-  position: relative;
-  overflow: hidden;
-}
 
-.goster img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  transition: opacity 0.5s ease;
-}
+
+
+
+
+
+
+
