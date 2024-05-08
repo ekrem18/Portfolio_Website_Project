@@ -126,6 +126,7 @@
   
         &:hover {
           background: #BF544B;
+          cursor: URL("../assets/cursor2.png"), auto;
         }
       }
     }
