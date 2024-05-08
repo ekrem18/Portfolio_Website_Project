@@ -6,10 +6,6 @@
   cursor:url('../assets/cursor.png'),auto;                                      
 }
 
-#logoImg {
-  /* width: 120px; */
-  max-width: 100%;
-}
 
 body {
   background-repeat: no-repeat;
@@ -114,7 +110,8 @@ h2 {
 
   .gallery-block .zoom-on-hover:hover .image {
     transform: scale(1.3);
-    opacity: 0.7;
+    /* opacity: 0.7; */
+    cursor: URL("../assets/cursor2.png"), auto;
   }
 }
 
@@ -143,37 +140,26 @@ h2 {
   }
 }
 
-.navbar {
-  background-color: #f8f9fa; /* Arka plan rengi */
-  border: none; /* Kenarlık olmaması */
+.goster .hover {
+  opacity: 0; /* Başlangıçta hover imajını gizle */
 }
 
-.navbar-brand {
-  padding: 15px 0; /* Marka logoları için boşluk */
+.goster:hover .hover {
+  opacity: 1; /* Hover durumunda hover imajını göster */
 }
 
-.navbar-nav {
-  margin: 0; /* Sol ve sağ boşlukları kaldırma */
+.goster:hover .original {
+  opacity: 0; /* Hover durumunda orijinal imajı gizle */
+}
+.goster{
+  position: relative;
+  overflow: hidden;
 }
 
-.navbar-nav li {
-  display: inline-block; /* Menü öğelerini yan yana düzenleme */
+.goster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 0.5s ease;
 }
-
-.navbar-nav li a {
-  padding: 15px 20px; /* Menü öğeleri arasındaki boşluk */
-  color: #333; /* Metin rengi */
-}
-
-.navbar-nav li a:hover {
-  color: #007bff; /* Üzerine gelindiğinde metin rengi */
-}
-
-.navbar-toggle {
-  margin-right: 0; /* Mobil cihazlarda toggle butonunu sağa hizalama */
-}
-
-.navbar-toggle .icon-bar {
-  background-color: #333; /* Toggle simgelerinin rengi */
-}
-
